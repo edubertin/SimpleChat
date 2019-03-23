@@ -27,6 +27,11 @@
   <body>
     <h3></h3>
     <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col">
+          <img class="img-fluid" src="img/logo.png" alt="Logo" />
+        </div>
+      </div>
       <div class="row" id="header-row">
         <div class="col">
         <h2> Digite seu nome:</h2>
@@ -35,7 +40,7 @@
 
       <div class='row'>
         <div class='col'>
-          <form onsubmit='submitForm(); return false;' class='form-inline'>
+          <form onsubmit='submitForm(); return false;' class='form-inline justify-content-center'>
             <div class='form-group'>
               <label for='username' class='col-form-label sr-only'>Digite seu nome:</label>
               <input class='form-control' type='text' value='' id='username' placeholder='Digite seu username'/>
@@ -43,6 +48,7 @@
               <button type='submit' class='btn btn-default btn-primary'>Entrar</button>
           </form>
         </div>
+    </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
